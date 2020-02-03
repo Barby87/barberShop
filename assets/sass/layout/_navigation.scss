@@ -1,0 +1,15 @@
+.navbar {
+    background-color: $eerie-black;
+}
+
+.nav-link {
+    color: $white;
+   
+    &:hover {
+        color: $spanish-pink;
+    }
+}
+
+.navbar-brand-img {
+    width: 3em;
+}
