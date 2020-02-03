@@ -1,0 +1,23 @@
+.about{
+    border-top: 1px solid $light-gray;
+    border-bottom: 1px solid $light-gray;
+    
+    .h3-naomi {
+        color: $eerie-black;
+        font-family: $playfair-display;
+        font-size: $x-large;
+        font-style: italic;
+        font-weight: 900;
+    }
+
+    h5 {
+        font-weight: $light;
+        font-size: $medium;
+        color: $ruddy-pink;
+    }
+}
+
+.img-naomi {
+    width: 8.125em;
+}
+

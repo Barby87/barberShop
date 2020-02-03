@@ -1,3 +1,11 @@
 .pager {
-    background-color: $platinum;
+    background-color: $platinum!important;
+}
+
+.page-link {
+    color: $eerie-black;
+
+    &:hover {
+        color: $eerie-black;
+    }
 }
