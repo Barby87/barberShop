@@ -9875,8 +9875,14 @@ h3 {
     border-color: #dee2e6;
   }
 }
+/*Mixins*/
+body {
+  margin: 0;
+}
+
 .navbar {
   background-color: #121619;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-link {
@@ -9886,12 +9892,16 @@ h3 {
   color: #ecbcba;
 }
 
+.fa-bars {
+  color: #fff;
+}
+
 .navbar-brand-img {
   width: 3em;
 }
 
 .header {
-  height: 100vh;
+  height: 90vh;
   background-image: url("../img/post-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -9904,6 +9914,7 @@ h3 {
 
 h1 {
   font-family: "Playfair Display", serif;
+  font-size: 40px;
   font-weight: 900;
   font-style: italic;
   color: #fff;
@@ -9913,12 +9924,90 @@ p {
   text-align: justify;
 }
 
-.main-section {
-  border-bottom: 1px solid grey;
+.main_section {
+  color: #222323;
+}
+.main_section p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.main_section h5 {
+  font-size: 16px;
+  font-family: "Playfair Display", serif;
+}
+
+.main_section-span-pink {
+  color: #d76c69;
+}
+
+.about_section {
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  font-family: "Roboto", sans-serif;
+}
+
+.img-naomi {
+  width: 8.125em;
+}
+
+.about_section__row_col-author {
+  color: #121619;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.about_section__row_col-author-links {
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #d76c69;
+  text-decoration: none !important;
+}
+.about_section__row_col-author-links:hover {
+  color: #222323;
+  text-decoration: none;
+}
+
+.pager {
+  background-color: #e6e7e7 !important;
+  font-family: "Roboto", sans-serif;
+}
+
+.page-link {
+  color: #121619;
+  font-size: 14px;
+}
+.page-link:hover {
+  background-color: #121619;
+  color: #fff;
+  border: none;
+}
+
+.next {
+  border-radius: 0px 20px 20px 0px !important;
+}
+
+.previous {
+  border-radius: 20px 0px 0px 20px !important;
 }
 
 .footer {
   background-color: #121619;
+}
+
+.main_section_row-btn-gray {
+  border-radius: 40px;
+  border: none;
+  background-color: #6c6e70;
+  color: #fff;
+  font-size: 14px;
+  padding: 0.5em;
+}
+.main_section_row-btn-gray:hover {
+  background-color: #d1d1d1;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

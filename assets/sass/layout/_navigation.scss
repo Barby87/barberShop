@@ -1,5 +1,6 @@
 .navbar {
     background-color: $eerie-black;
+    font-family: $roboto;
 }
 
 .nav-link {
@@ -8,6 +9,10 @@
     &:hover {
         color: $spanish-pink;
     }
+}
+
+.fa-bars {
+    color: $white;
 }
 
 .navbar-brand-img {
