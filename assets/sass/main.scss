@@ -2,7 +2,6 @@
 @import 'vendors/bootstrap_v.4.1/bootstrap.scss';
 
 // Abstracts
-// @import 'abstracts/mixins';
 @import 'abstracts/variables';
 @import 'abstracts/mixins';
 
@@ -17,6 +16,8 @@
 @import 'layout/about';
 @import 'layout/pager';
 @import 'layout/footer';
+@import 'layout/media';
+
 
 // Components
 @import 'components/buttons';
